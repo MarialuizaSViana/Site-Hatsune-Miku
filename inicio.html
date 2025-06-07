@@ -1,0 +1,48 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hatsume miku</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="website icon" type="png" href="/imagens/logo2.png">
+</head>
+<body>
+    <div id="video">
+    <video autoplay muted loop src="/VIDEO/miku.mp4" class="v1"></video>
+    </div>
+
+    <div class="sobrepor">
+        <div class="logo">
+        <a href="inicio.html"><img src="imagens/Logomiku.png" alt="logo"></a>
+    </div>
+    <main>
+         <ul class="barra">
+        <li><a href="PAGES\historia.html">HISTÓRIA</a></li>
+        <li><a href="PAGES\vocaloid.html">VOCALOID</a></li>
+        <li><a href="PAGES\fama_no_brasil.html">FAMA NO BRASIL</a></li>
+        <li><a href="PAGES\musica.html">MÚSICAS</a></li>
+        <li><a href="PAGES\trailer.html">TRAILER</a></li>
+        <li><a href="https://mikuexpo.com/" target="_blank">MIKU EXPO</a></li>
+        <li><a href="https://miku.sega.com/megamixplus/index.html" target="_blank">PROJECT DIVA MEGA MIX +</a></li>
+        </ul>
+    </div>
+
+    <div class="video-background">
+            <audio id="video-back" autoplay playsinline loop>
+                <source src="/VIDEO/miku.mp4" type="audio/mp3">
+                Seu navegador não suporta vídeo HTML5.
+            </audio>
+        </div>
+
+         <div class="audio-controls">
+                <button id="soundToggle">🔇</button>
+                <input id="volumeBar" type="range" min="0" max="1" step="0.01" value="0.5" />
+            </div>
+
+</body>
+    <footer class="rodape">
+        <h3>Site feito por: <span>Maria Luíza</span></h3>
+    </footer>
+    <script src="/JS/musica.js"></script>
+</body>
+</html>

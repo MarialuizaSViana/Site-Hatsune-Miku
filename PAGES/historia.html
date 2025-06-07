@@ -1,0 +1,91 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História</title>
+    <link rel="stylesheet" href="../CSS/base.css">
+    <link rel="stylesheet" href="../CSS/historia.css">
+    <link rel="stylesheet" href="../CSS/barra-som.css">
+    <link rel="website icon" type="png" href="../imagens/logo2.png">
+</head>
+<body>
+    <div class="logo">
+         <a href="../inicio.html"><img src="../imagens/Logomiku.png" alt="logo"></a>
+    </div>
+    <main>
+        <ul class="barra">
+        <li><a href="../inicio.html">Início</a></li>
+        <li><a href="../PAGES\historia.html">HISTÓRIA</a></li>
+        <li><a href="../PAGES\vocaloid.html">VOCALOID</a></li>
+        <li><a href="../PAGES\fama_no_brasil.html">FAMA NO BRASIL</a></li>
+        <li><a href="../PAGES\musica.html">MÚSICAS</a></li>
+        <li><a href="../PAGES\trailer.html">TRAILER</a></li>
+        <li><a href="https://mikuexpo.com/" target="_blank">MIKU EXPO</a></li>
+        <li><a href="https://miku.sega.com/megamixplus/index.html" target="_blank">PROJECT DIVA MEGA MIX +</a></li>
+        </ul>
+
+    
+         <div class="carousel-container">
+        <div class="carousel" id="carousel">
+            <img src="../imagens/miku2.jpg" alt="Imagem 1">
+            <img src="../imagens/miku3.jpg" alt="Imagem 2">
+            <img src="../imagens/miku4.jpg" alt="Imagem 3">
+        </div>
+        <div class="nav-buttons">
+            <button onclick="prevSlide()">&#10094;</button>
+            <button onclick="nextSlide()">&#10095;</button>
+        </div>
+    </div>
+
+
+
+    <div class="miku3d"> <iframe style="border-radius:20px" title="Miku" width="1350px" height="500px" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/e0b58ccf069842cc920d5077ce2a09da/embed"> </iframe></div>
+
+
+
+        <div class="colunas">
+          <div class="card-container">
+            <div class="card">
+              <div class="card-front"><img src="../imagens/mikucapa.png" alt="miku"></div>
+              <div class="card-back"><p>Hatsune Miku é uma personagem e artista virtual, criada pela Crypton Future Media em 2007, que revolucionou a música digital e se tornou um ícone cultural global. Ela é conhecida por ser uma Vocaloid, ou seja, uma voz sintetizada que pode ser utilizada para criar músicas.</p></div>
+            </div>
+          </div>
+
+
+          <div class="card-container">
+            <div class="card">
+              <div class="card-front"><img src="../imagens/mikucapa.jpg" alt="miku"></div>
+              <div class="card-back"><p>Seu nome é a combinação das palavras "hatsu" (初; "primeiro"), "ne" (音; "som") e "miku" (ミク; um nome próprio que tem a mesma ortografia de "futuro") que, juntando, significa "o primeiro som do futuro". É baseado em seu conceito de quando um som é dito pela primeira vez.</p></div>
+            </div>
+          </div>
+
+
+          <div class="card-container">
+            <div class="card">
+              <div class="card-front"><img src="../imagens/mikucapa2.jpg" alt="capa"></div>
+              <div class="card-back"><p>Ainda na era VOCALOID2, Miku recebeu bancos adicionais, chamados "Appends", e apenas em setembro de 2013 foi atualizada para o VOCALOID3, onde ganhou um voicebank inglês. Sua atualização para o VOCALOID4 surgiu em agosto de 2016, que, além de renovar os japoneses e o inglês, trouxe como novidade o banco chinês, fazendo com que Miku seja o primeiro Vocaloid trilíngue lançado para o software.</p></div>
+            </div>
+          </div>
+          </div>
+            
+          <div class="video-background">
+            <audio id="video-back" autoplay playsinline loop>
+                <source src="../MUSIC/levan-polka.mp3" type="audio/mp3">
+                Seu navegador não suporta vídeo HTML5.
+            </audio>
+        </div>
+
+         <div class="audio-controls">
+                <button id="soundToggle">🔇</button>
+                <input id="volumeBar" type="range" min="0" max="1" step="0.01" value="0.5" />
+            </div>
+
+    </main>
+
+    <footer class="rodape">
+        <h3>Site feito por: <span>Maria Luíza</span></h3>
+    </footer>
+    <script src="../JS/musica.js"></script>
+    <script src="../JS/Java.js"></script>
+</body>
+</html>
