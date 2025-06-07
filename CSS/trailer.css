@@ -1,0 +1,57 @@
+.caixa3{
+    background-color: black;
+    border-radius: 20px;
+    width: 1250px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 60px;
+    padding-bottom: 80px;
+    text-align: center;
+    border: 4px rgb(1, 218, 193) solid;
+    position: absolute;
+    top: 600px;
+    left: 70px;
+    animation: mover  0.5s ease-in-out infinite alternate;
+}
+
+@keyframes mover {
+            from {
+                top: 600px;
+            }
+            to {
+                top: 570px;
+            }
+        }
+
+
+.caixa3 img{
+    margin-right: 70px;
+    margin-left: 10px;
+    float: left;
+    width: 200px;
+}
+
+.caixa3 p{
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.caixa3 span{
+    color: rgb(1, 218, 193);
+    font-size: 40px;
+}
+
+.trailer{
+    text-align: center;
+    margin-top: 600px;
+    margin-bottom: 100px;
+    transition: transform 0.3s ease;
+}
+
+.trailer:hover{
+    transform: scale(1.05);
+}

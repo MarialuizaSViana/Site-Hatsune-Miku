@@ -1,0 +1,92 @@
+body{
+        background-color: black;
+        overflow-x: hidden;
+    }
+
+.audio-controls{
+    position: absolute;
+    top: 650px;
+    right: 190px;
+}
+
+    #video{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+    }
+    .v1{
+        width: 100%;
+        opacity: 70%;
+    }
+
+    .sobrepor{
+        position: fixed;
+        text-align: center;
+    }
+
+li, a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.barra{
+    padding: 20px;
+    width: 1050px;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    background-color: transparent;
+      text-transform: uppercase;
+      text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #ff00bb,
+        0 0 40px #ff00c3,
+        0 0 80px #ff00c8;
+      animation: flicker 1.5s infinite alternate;
+
+}
+
+.barra li{
+    padding: 0 20px ;
+    transition: transform 0.3s ease;
+    margin: 0 auto;
+    list-style: none;
+    margin-top: 30px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.barra li a{
+    transition: all 0.3s;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+.barra li a:hover{
+    color: #f9019a;
+    transform: scale(1.2);
+}
+
+.logo img{
+    width: 400px;
+    transition: transform 0.3s ease;
+}
+
+.logo{
+    border-radius: 20px;
+    width: 1000px;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 750px;
+}
+
+.logo img:hover{
+    transform: scale(1.1);
+}

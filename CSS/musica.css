@@ -1,0 +1,49 @@
+.miku{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 610px;
+    left: 100px;
+    border-radius: 1000px;
+}
+
+.memaizer{
+    width: 400px;
+    position: absolute;
+    top: 985px;
+    right: 100px;
+}
+
+.eat{
+    width: 400px;
+    position: absolute;
+    left: 100px;
+    top: 1385px;
+}
+
+.magical{
+    width: 400px;
+    position: absolute;
+    right: 100px;
+    top: 1750px;
+}
+
+h1 img{
+    width: 300px;
+    margin-left: 350px;
+    margin-top: 80px;
+    top: 600px;
+}
+
+h2 img{
+    width: 300px;
+    margin-left: 850px;
+    margin-top: 50px;
+}
+
+h3 img{
+    width: 300px;
+     margin-left: 850px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
